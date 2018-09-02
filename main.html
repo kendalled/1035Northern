@@ -15,7 +15,7 @@
 	<title>1035 Northern Way - Walkthrough</title>
 	<meta charset="utf-8" />
 	<meta name="author" content="Kendall Jackson, kendalled.github.io">
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
 	<meta name="description" content="This is a beautiful, two story home for sale in Winter Springs, Florida by Richard Bercini. Off Tuskawilla and Northern Way, this price is something you don't want to miss." />
 	<meta name="keywords" content="Tuskawilla, Northern, Way, Home, Winter Springs, Richard, Bercini, 1035, Way, Seminole" />
 	<link rel="stylesheet" href="assets/css/main.css" />
@@ -49,21 +49,22 @@
 		<div class="wrapper">
 			<div class="inner">
 				<header>
-					<h2>Home Walkthrough <h3><i>(automatic slideshow - see descriptions at bottom of photograph.)<i></h3></h2>
+					<h2>Home Walkthrough</h2>
+					<h3><i>(automatic slideshow - see descriptions at bottom of photograph.)</i></h3>
 				</header>
 
 				<!-- Slideshow implementation -->
 				<div class="bss-slides num2" tabindex="2">
 					<figure>
-						<img src="images/pic01.jpg" width="100%" />
+						<img src="images/pic01.jpg" style="width:100%;height:100%;"/>
 						<figcaption>A straight-on shot of the home, walking to the door.</figcaption>
 					</figure>
 					<figure>
-						<img src="images/mainhouse.jpg" width="100%" />
+						<img src="images/mainhouse.jpg" style="width:100%;height:100%;"/>
 						<figcaption>An angled front-shot of the home.</figcaption>
 					</figure>
 					<figure>
-						<img src="images/guestpool.jpg" width="100%" />
+						<img src="images/guestpool.jpg" style="width:100%;height:100%;"/>
 						<figcaption>The gorgeous pool, with a screened in surrounding area and loft area overlooking.</figcaption>
 					</figure>
 				</div>
@@ -77,7 +78,7 @@
 			<div class="inner">
 				<h2 class="alt">Any questions? We've got them answered.</h2>
 				<p>Please leave your email, and we'll get back to you within a few days. Thanks for the interest!</p>
-				<form method="post" action="mailto: bercinir@yahoo.com" class="combined">
+				<form method="post" action="mailto:bercinir@yahoo.com" class="combined">
 					<input type="email" name="email" id="email" placeholder="Your email address" class="invert" />
 					<input type="submit" class="special" value="Submit" />
 				</form>
@@ -95,19 +96,19 @@
 					</header>
 					<div class="contact-icons">
 						<ul>
-							<li><a href="#" class="icon fa-envelope"><span>bercinir@yahoo.com</span></a></li>
-							<li><a href="#" class="icon fa-linkedin"><span><a href="https://www.linkedin.com/in/richard-bercini-737469a">LinkedIn</span></a></li>
+							<li><a href="bercinir@yahoo.com" class="icon fa-envelope"><span>bercinir@yahoo.com</span></a></li>
+							<li><a href="https://www.linkedin.com/in/richard-bercini-737469a" class="icon fa-linkedin" title="LinkedIn Profile for Richard Bercini."> <span>LinkedIn</span></a></li>
 						</ul>
 						<ul>
 							<li><a href="#" class="icon fa-phone"><span>(407) 671-7836</span></a></li>
 							<li>
 								<div class="icon fa-map-marker">
 									<address>
-														Mass Properties, Inc.<br />
-														124 Seville Chase Dr.<br />
-														Winter Springs, Florida, 32708<br />
-														United States
-													</address>
+												Mass Properties, Inc.<br />
+												124 Seville Chase Dr.<br />
+												Winter Springs, Florida, 32708<br />
+												United States
+											</address>
 								</div>
 							</li>
 						</ul>
@@ -131,12 +132,12 @@
 	<!-- placed in lower to avoid issues of responsiveness -->
 	<script>
 		var opts = {
-			auto : {
-                // speed to advance slides at. accepts number of milliseconds
-                speed : 5000,
-                // pause advancing on mouseover? accepts boolean
-                pauseOnHover : false,
-            },
+			auto: {
+				// speed to advance slides at. accepts number of milliseconds
+				speed: 5000,
+				// pause advancing on mouseover? accepts boolean
+				pauseOnHover: false,
+			},
 			fullScreen: false,
 			swipe: true
 		};
